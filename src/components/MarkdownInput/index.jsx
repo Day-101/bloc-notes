@@ -12,7 +12,7 @@ const MarkdownInput = () => {
   const contentChange = (e) => {
     setContent(e.target.value);
   };
-  const handleClick = () => {
+  const SaveClick = () => {
     const note = {
       title: title,
       content: content
@@ -29,7 +29,7 @@ const MarkdownInput = () => {
       </div>
       <input value={title} onChange={titleChange} />
       <textarea value={content} onChange={contentChange} />
-      <button id="save" onClick={handleClick}>Sauvegarder</button>
+      <button id="save" onClick={SaveClick}>Sauvegarder</button>
     </React.Fragment>
   );
 }
