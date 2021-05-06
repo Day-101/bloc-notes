@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #191a1b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+button{
+  background: #ff0202;
+  color: #e4e6eb;
+  border: none;
+  padding: .8em 1em;
+  display: block;
+  width: 100%;
+  
+  &:hover{
+    background: #dd0000;
+  }
+}
+#save{
+  width: fit-content;
+  margin-top: 1em;
+}
+#root{
+  display: flex;
+  color: #e4e6eb;
+  margin: 2em;
+  padding: 2em;
+  background: #252626;
+}
+
+#list-note{
+  width: 20%;
+  padding-right: 1em;
+}
+
+#note{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+}
+
+.card{
+  margin: 1em 1em 3em 1em;
+  
+  h1{
+    font-size: 1.2em;
+    color: #ff0202;
+  }
+  p{
+    font-size: 1em;
+    color: #e4e6eb;
+    margin-bottom: 5em;
+  }
+}
+
+input{
+  background: #3a3b3c;
+  color: #e4e6eb;
+  border: none;
+  margin-bottom: 1em;
+  padding: .5em 1em;
+}
+
+textarea{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #3a3b3c;
+  color: #e4e6eb;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: none;
+  
+  #title-area{
+    font-weight: bold;
+  }
+  #content-area{
+    height: max-content;
+  }
+}
+
+#note-render{
+  margin: 0em 2em 2em 2em;
+  min-height: 200px;
+  #title{
+    margin-top: 0;
+    color: #ff0202;
+  }
+}

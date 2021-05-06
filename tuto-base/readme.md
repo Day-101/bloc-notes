@@ -1,0 +1,1 @@
+Parce que React est installé en CDN, il faut lancer liveserver depuis VS Code et aller sur localhost5500
